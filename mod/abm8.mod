@@ -1,0 +1,49 @@
+PCBNEW-LibModule-V1  7/30/2014 6:28:49 PM
+# encoding utf-8
+Units mm
+$INDEX
+ABM8
+$EndINDEX
+$MODULE ABM8
+Po 0 0 0 15 53D91D28 00000000 ~~
+Li ABM8
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.05 -1.675 1 1 0 0.15 N V 21 N "ABM8"
+T1 0.025 1.55 1 1 0 0.15 N V 21 N "VAL**"
+DC -1 0.4 -1.2 0.6 0.15 21
+DS -1.5 -1 1.5 -1 0.15 21
+DS 1.5 -1 1.5 1 0.15 21
+DS 1.5 1 -1.5 1 0.15 21
+DS -1.5 1 -1.5 -1 0.15 21
+$PAD
+Sh "1" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.85
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.85
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.85
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.85
+$EndPAD
+$EndMODULE ABM8
+$EndLIBRARY

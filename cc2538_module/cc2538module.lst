@@ -1,0 +1,88 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 7/30/2014 1:58:41 PM
+#Cmp ( order = Reference )
+| ANT1       ANTENNA     ;             
+| C1         10u         ; ~           
+| C2         1u          ; ~           
+| C3         4u7         ; ~           
+| C4         47p         ; ~           
+| C5         47          ; ~           
+| C6         22u         ; ~           
+| C7         12p         ; ~           
+| C8         22p         ; ~           
+| C9         1u          ; ~           
+| C10        1u          ; ~           
+| C11        12p         ; ~           
+| C12        22p         ; ~           
+| C13        1n          ; ~           
+| D1         LOK         ; ~           
+| D2         L2          ; ~           
+| D3         L1          ; ~           
+| D4         L0          ; ~           
+| j1         JTAG        ; ~           
+| J1         USB         ;             
+| J2         XBEE        ; ~           
+| L1         2u2         ; ~           
+| P1         CONN_2      ;             
+| R1         1k5         ; ~           
+| R2         33          ; ~           
+| R3         33          ; ~           
+| R4         100k        ; ~           
+| R5         56k         ; ~           
+| R6         2k2         ; ~           
+| R7         82          ; ~           
+| R8         68          ; ~           
+| R9         68          ; ~           
+| R10        68          ; ~           
+| SW1        PWR         ; ~           
+| TR1        BALUN_2450BM15A0002;             
+| U1         TPS769XX    ; ~           
+| U2         TPS6217X    ; ~           
+| U3         CC2538      ; ~           
+| X1         32MHZ       ; ~           
+| X2         32.768KHz   ; ~           
+#End Cmp
+
+#Cmp ( order = Value )
+| ANTENNA      ANT1      ;             
+| 12p          C7        ; ~           
+| 12p          C11       ; ~           
+| 22p          C8        ; ~           
+| 22p          C12       ; ~           
+| 47p          C4        ; ~           
+| 1n           C13       ; ~           
+| 1u           C2        ; ~           
+| 1u           C9        ; ~           
+| 1u           C10       ; ~           
+| 4u7          C3        ; ~           
+| 10u          C1        ; ~           
+| 22u          C6        ; ~           
+| 47           C5        ; ~           
+| LOK          D1        ; ~           
+| L2           D2        ; ~           
+| L1           D3        ; ~           
+| L0           D4        ; ~           
+| USB          J1        ;             
+| JTAG         j1        ; ~           
+| XBEE         J2        ; ~           
+| 2u2          L1        ; ~           
+| CONN_2       P1        ;             
+| 33           R2        ; ~           
+| 33           R3        ; ~           
+| 68           R8        ; ~           
+| 68           R9        ; ~           
+| 68           R10       ; ~           
+| 82           R7        ; ~           
+| 1k5          R1        ; ~           
+| 2k2          R6        ; ~           
+| 56k          R5        ; ~           
+| 100k         R4        ; ~           
+| PWR          SW1       ; ~           
+| BALUN_2450BM15A0002 TR1       ;             
+| TPS769XX     U1        ; ~           
+| TPS6217X     U2        ; ~           
+| CC2538       U3        ; ~           
+| 32.768KHz    X2        ; ~           
+| 32MHZ        X1        ; ~           
+#End Cmp
+
+#End List
